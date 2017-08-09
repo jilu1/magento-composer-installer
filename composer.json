@@ -1,5 +1,5 @@
 {
-    "name":"magento/magento-composer-installer",
+    "name":"my/magento-composer-installer",
     "description":"Composer installer for Magento modules",
     "keywords":[ "composer-installer", "magento"],
     "minimum-stability":"stable",
@@ -51,6 +51,7 @@
         "mikey179/vfsStream":"*"
     },
     "replace": {
+        "magento/magento-composer-installer": "*",
         "magento-hackathon/magento-composer-installer": "*"
     },
     "autoload":{
